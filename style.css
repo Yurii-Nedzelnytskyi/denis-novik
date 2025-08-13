@@ -78,6 +78,7 @@ h1 {
   height: 387px;
   object-fit: cover;
   object-position: center 44%;
+  display: block;
 }
 
 .about_me {
