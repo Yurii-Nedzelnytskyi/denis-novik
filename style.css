@@ -1,4 +1,12 @@
-body, p, h1, h2, ul, li, img, span, a {
+body,
+p,
+h1,
+h2,
+ul,
+li,
+img,
+span,
+a {
   margin: 0;
   padding: 0;
 }
@@ -9,7 +17,7 @@ h2 {
   color: #070707;
 }
 
-p{
+p {
   font-size: 18px;
   font-weight: 400;
 }
@@ -19,16 +27,16 @@ a {
 }
 
 li {
-list-style: none;
+  list-style: none;
 }
 
 body {
-  font-family: Open Sans ;
+  font-family: Open Sans;
   max-width: 1440px;
   margin: auto;
 }
 
-.header{
+.header {
   margin: auto;
   height: 80px;
   width: 970px;
@@ -51,14 +59,17 @@ nav>ul {
 }
 
 nav a {
-font-weight: 400;
-font-size: 18px;
-color: #828282;
-
+  font-weight: 400;
+  font-size: 18px;
+  color: #828282;
 }
 
-nav li:first-child a{
-  color:#090909 ;
+nav a:hover {
+  font-weight: 700;
+}
+
+nav li:first-child a {
+  color: #090909;
 }
 
 .hero {
@@ -84,7 +95,7 @@ h1 {
 .about_me {
   height: 500px;
   text-align: center;
-  background-color: #F6F6F6;  
+  background-color: #F6F6F6;
   padding-top: 110px;
   /* padding-bottom: 106px; */
 }
@@ -162,7 +173,7 @@ h1 {
   height: 540px;
 }
 
-.portfolio a{
+.portfolio a {
   font-size: 18px;
   font-weight: 400;
   color: #070707;
@@ -194,9 +205,13 @@ footer p {
 .send_message ul {
   margin: auto;
   margin-bottom: 65px;
-display: flex;
-justify-content: space-between;
-width: 310px;
+  display: flex;
+  justify-content: space-between;
+  width: 310px;
+}
+
+.send_message a:hover {
+opacity: 0.5;
 }
 
 footer button {
@@ -209,6 +224,11 @@ footer button {
   font-weight: 700;
   color: #FFFFFF;
   margin-bottom: 30px;
+}
+
+footer button:hover {
+  background-color: #F6F6F6;
+  color: #070707
 }
 
 footer span {
